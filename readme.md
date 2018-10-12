@@ -1,4 +1,4 @@
-# ReactES6-webpack-boilerplate
+# React-typescript-webpack-boilerplate
 
 Boilerplate for a React ES6 project compiled in webpack. Features:
 - React 16
