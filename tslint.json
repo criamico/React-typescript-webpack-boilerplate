@@ -1,0 +1,19 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rulesDirectory": ["rules", "node_modules/tslint-microsoft-contrib", "node_modules/tslint-react"],
+  "rules": {
+    "max-line-length": [true, 80],
+    "no-unused-expression": true,
+    "no-unused-variable": [true, "react", {"ignore-pattern": "^_"}],
+    "triple-equals": false,
+    "jsx-key": true,
+    "jsx-no-lambda": true,
+    "jsx-no-string-ref": true,
+    "jsx-self-close": true,
+    "jsx-no-bind": true
+  }
+}
